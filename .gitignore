@@ -1,1 +1,57 @@
+# Ignore build directories and binaries
+/build/
+/bin/
+/obj/
+/out/
+/target/
+
+# Ignore compiled C++ files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Ignore compiled Java class files
+*.class
+*.jar
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Rust
+Cargo.lock
+target/
+
+# Swift
+*.xcodeproj
+*.xcworkspace
+*.swiftpm
+*.build
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore IDE configuration files
+.idea/
+.vscode/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore environment variables or credentials files
+.env
+
+# Ignore any other temporary or backup files
+*~
+*.bak
+*.swp
 
